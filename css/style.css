@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../font/bebasneue_bold-webfont.eot');
+    src: url('../font/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('../font/bebasneue_bold-webfont.woff') format('woff'),
+         url('../font/bebasneue_bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../font/bebasneue_light-webfont.eot');
+    src: url('../font/bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/bebasneue_light-webfont.woff2') format('woff2'),
+         url('../font/bebasneue_light-webfont.woff') format('woff'),
+         url('../font/bebasneue_light-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../font/bebasneue_regular-webfont.eot');
+    src: url('../font/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../font/bebasneue_regular-webfont.woff') format('woff'),
+         url('../font/bebasneue_regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+	background: #9789f9;
+	font: 300 16px/1.4 'Roboto', sans-serif;
+}
+
+/* Layout */
+.ba-container{
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-pricing {
+	padding: 160px 0;
+	/* display: flex; */
+	font-size: 0;
+	white-space: nowrap;
+	margin-left: -22px;
+/* 	align-items: center; */	
+}
+
+.ba-pricing__col {
+	/* flex-grow: 1; */
+	display: inline-block;
+	vertical-align: middle;
+	width: 33.3%;
+	padding-left: 22px;
+}
+
+.ba-price {
+	background: #f5f4f9;	
+	padding: 20px;
+	font-size: 14px;
+	box-shadow: 2px 4px 59px 0px #7a6be7;
+}
+
+.ba-price--design {
+	position: relative;
+	z-index: 1;
+}
+
+.ba-price__body {
+	background: #FFF;
+	padding: 40px 20px 60px;
+	margin: 35px -20px 0;
+	position: relative;
+}
+
+.ba-price__position {
+	position: relative;
+	z-index: 2;
+	font: 400 24px/1 Bebas, sans-serif;
+}
+
+.ba-price__body:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: -35px;
+	height: 70px;
+	background: #FFF;
+	-webkit-border-radius: 50% 50% 0 0;
+	        border-radius: 50% 50% 0 0;
+}
+
+.ba-price__icon {
+	display: block;
+	text-align: center;
+	font-size: 36px;
+}
+
+.ba-price__body ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+
+
+
+
