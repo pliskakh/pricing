@@ -47,6 +47,11 @@ body{
 }
 
 /* Typography */
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+
 a,
 input[type="submit"],
 input[type="button"],
@@ -58,12 +63,25 @@ input[type="button"],
 button,
 .ba-button{
   display: inline-block;
+  
+  height: 54px;
+  line-height: 54px;
+  background-color:  #6fcffb;
+  box-shadow: 2px 4px 18px 0px rgba(133, 192, 247, 0.31);
+  font-family: Bebas;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0 47px;
+  border-radius: 40px;
 }
+
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
 .ba-button:hover{
-
+	background: #ccc;
 }
 
 input[type="text"],
@@ -155,6 +173,34 @@ textarea {
 	list-style: none;
 }
 
+.ba-price__rate {
+	font-family: 'Bebas', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	
+}
+
+.ba-price__rate::before {
+	content: "$";
+	font-size: 24px;
+	vertical-align: super;
+}
+
+.ba-price__rate::after {
+	content: "/HR";
+	font-size: 16px;
+}
+
+.ba-discount {
+	color: #a9a9a9;
+	font-size: 11px;
+	font-weight: 300;
+}
+
+.ba-button--hovered {
+	background-color:  #fd8d7b;
+	margin-bottom: 10px;
+}
 
 
 
